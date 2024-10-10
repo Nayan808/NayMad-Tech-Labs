@@ -1,0 +1,29 @@
+{
+  "name": "precious-it-services",
+  "version": "1.0.0",
+  "description": "## Overview",
+  "main": "./backend/server.js", 
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo\"Error: no test specified\"&& exit 1",
+    "start": "nodemon /backend/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "@sendgrid/mail": "^7.7.0",
+    "express": "^4.19.2",
+    "html-to-text": "^9.0.5",
+    "nodemailer": "^6.9.13",
+    "nodemailer-smtp-transport": "^2.7.4",
+    "razorpay": "^2.9.2",
+    "react-google-drive-picker": "^1.2.2"
+  }
+}
