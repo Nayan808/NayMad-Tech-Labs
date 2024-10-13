@@ -63,7 +63,7 @@ body {
   display: inline-block;
   font-size: 3.5rem;
   color: #002e5f;
-  position: relative;
+  position: relative; 
   letter-spacing: 0.2rem;
 }
 
@@ -500,7 +500,7 @@ body.night {
 .item {
   background-color: #1e1d1d;
   text-align: center;
-  padding: 30px 25px;
+  padding: 30px 25px 0px;
   box-shadow: 0 0 25px rgba(0, 0, 0, 0.07);
   border-radius: 20px;
   margin-bottom: 30px;

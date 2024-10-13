@@ -10,8 +10,8 @@ loginBtn.addEventListener("click", () => {
 
   let params = {
     client_id:
-      "807690195816-ibtf6a67ee9g0ib3oojrsob2pbf33ifa.apps.googleusercontent.com",
-    redirect_uri: "https://preciousitservices.vercel.app",
+      "401910493762-544ga7fr18lc1vsqgqqbk3ipf1dvtjn5.apps.googleusercontent.com",
+    redirect_uri: "https://nay-mad-tech-labs.vercel.app",
     response_type: "token",
     scope:
       "https://www.googleapis.com/auth/userinfo.profile https://www.googleapis.com/auth/youtube.readonly",
@@ -76,7 +76,7 @@ function logout() {
     // Remove stored authentication information
     localStorage.removeItem("authInfo");
     // Redirect to the login page
-    location.href = "https://preciousitservices.vercel.app";
+    location.href = "https://nay-mad-tech-labs.vercel.app";
   });
 }
 
